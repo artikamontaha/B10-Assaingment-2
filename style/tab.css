@@ -1,0 +1,811 @@
+/* @media screen and (min-width: 576px) and (max-width: 992px)  */
+
+/* header container starts here */
+header {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* navbar start */
+  .navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .navtitle {
+    font-size: 2.25rem;
+    line-height: 100%;
+  }
+  
+  .nav__list {
+    gap: 17px;
+    padding: 8px 5px;
+    margin: 0px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+  }
+  
+  .nav__item a {
+    font-size: 1rem;
+    line-height: 100%;
+  }
+  /* navbar end */
+  
+  /* banner start */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner__text--container {
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+    margin-right: 0;
+    margin-left: 0px;
+    padding: 0 20px;
+  }
+  
+  .banner__text--container h1 {
+    width: 90%;
+    height: auto;
+    font-size: 4.2rem;
+    font-weight: 900;
+    line-height: 110%;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .banner__text--container p {
+    width: 90%;
+    height: auto;
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  
+  .banner__btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  
+  .join__btn,
+  .download__btn {
+    width: 169px;
+    height: 54px;
+    padding: 0;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  
+  .download__btn {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+  }
+  
+  .banner__image--container {
+    max-width: 353px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 48px;
+  }
+  
+  .banner__image {
+    width: 100%;
+    max-width: 353px;
+    height: auto;
+  }
+  
+  .banner__image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .div350 {
+    max-width: 155.74px;
+    height: 72.58px;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+  }
+  
+  .div350 h4 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  
+  .div350 p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;
+  }
+  
+  .div500 {
+    max-width: 145.91px;
+    height: 74.09px;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+  }
+  
+  .div500 h4 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  
+  .div500 p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* banner end */
+  
+  /* main container starts here*/
+  
+  /* change__habit--section start */
+  .change__habit--section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .habit__text--container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .habit__text--container h2 {
+    width: 80%;
+    height: auto;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  
+  .habit__text--container p {
+    width: 80%;
+    height: auto;
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  
+  .habit__image--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .image__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image__container h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .image__container p {
+    font-size: 0.8rem;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+  /* change__habit--section end */
+  
+  /* extra mile section start */
+  .extra__mile--section {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .extra__mile--contents {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  .extra__mile--contents h2 {
+    width: 90%;
+    height: auto;
+    font-size: 2rem;
+    line-height: 120%;
+    margin-bottom: 12px;
+  }
+  
+  .extra__mile--contents p {
+    width: 90%;
+    height: auto;
+    font-size: 0.8rem;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  
+  .extra__mile--contents #join__btn {
+    width: 40%;
+    height: 54px;
+    padding: 0;
+    margin: 24px 0px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  
+  .extra__mile--image {
+    max-width: 256px;
+    height: 319px;
+    padding: 30px;
+  }
+  
+  .extra__mile--image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+  }
+  /* extra mile section end */
+  
+  /* training section start */
+  .training-section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 82px;
+  }
+  
+  .training__content {
+    max-width: 353px;
+    height: 162px;
+    margin-bottom: 20px;
+  }
+  
+  .training__content-title {
+    width: 90%;
+    height: auto;
+    font-size: 2rem;
+    line-height: 120%;
+    margin-bottom: 12px;
+    margin-bottom: 11px;
+  }
+  
+  .training__content-description {
+    max-width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.82rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  
+  .training__picture {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .training__div-1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    position: relative;
+  }
+  
+  .training__div-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    position: relative;
+    margin-bottom: 38px;
+  }
+  
+  .training__card-1,
+  .training__card-2,
+  .training__card-3,
+  .training__card-4,
+  .training__card-5,
+  .training__card-6 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 218px;
+  }
+  
+  .training__card-1,
+  .training__card-2,
+  .training__card-4,
+  .training__card-5 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+  }
+  
+  .training__div-1 p,
+  .training__div-2 p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+  .training__card-1 p,
+  .training__card-2 p,
+  .training__card-4 p,
+  .training__card-5 p,
+  .training__card-6 p {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 81%;
+    left: 6%;
+  }
+  /* training section end */
+  
+  /* BMI Content start */
+  .BMI__content {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+  }
+  
+  .BMI__content h2 {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 14px;
+  }
+  
+  .BMI__content p {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  /* BMI Content end */
+  
+  /* BMI__calculator--section start */
+  .BMI__calculator--section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .BMI__chart {
+    width: 80%;
+    height: auto;
+    margin-top: 52px;
+  }
+  
+  .BMI__chart h3 {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-align: left;
+    margin-bottom: 23px;
+  }
+  
+  .BMI__chart {
+    margin-left: -70px;
+  }
+  
+  .BMI__chart .chart__table table {
+    width: 100%;
+    height: auto;
+  }
+  
+  .BMI__chart .chart__table table,
+  td,
+  th {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+  }
+  
+  .BMI__chart .chart__table table th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+  }
+  
+  .BMI__chart .chart__table table td {
+    font-size: 0.8rem;
+  }
+  
+  .BMI__calculator {
+    width: 80%;
+    height: auto;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -70px;
+  }
+  
+  .BMI__calculator h3 {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+  }
+  
+  .BMI__calculator p {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    margin-bottom: 34px;
+  }
+  
+  .calculate__form input::placeholder,
+  .calculate__form select::placeholder {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+  .calculate__form .form1,
+  .form2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .calculate__form #weight,
+  #height,
+  #age,
+  #sex {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    margin: 0px 12px;
+    font-size: 1rem;
+  }
+  
+  .calculate__form #activity {
+    width: 97%;
+    padding: 12px 20px;
+    margin: 0px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  #calculate__btn {
+    width: 80%;
+    height: 54px;
+    padding: 0;
+    margin: 34px 0px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+  }
+  /* BMI__calculator--section end */
+  
+  /* team section start*/
+  .team-section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 66px;
+  }
+  
+  .team__contents {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  
+  .team__contents__title {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    margin-bottom: 14px;
+  }
+  
+  .team__contents__description {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  
+  .team__images {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .team__image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .team__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    opacity: 85%;
+  }
+  
+  .team__image__title,
+  .team__image__description {
+    position: relative;
+    bottom: 25%;
+    left: 5%;
+  }
+  
+  .team__image__title {
+    font-size: 0.95rem;
+  }
+  
+  .team__image__description {
+    font-size: 0.8rem;
+  }
+  /* teams section end */
+  
+  /* passes section start */
+  .passes-section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .passes__content {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 28px;
+  }
+  
+  .passes__content-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 24px;
+  }
+  
+  .passes__content-switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .passes__switch-caption {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .switch__icon {
+    font-size: 2rem;
+    color: rgb(242, 201, 76);
+  }
+  
+  .passes__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .passes__details-crossfit {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  .crosscut__title {
+    width: 50%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  
+  .crosscut__price {
+    width: 50%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+  
+  .sub__text {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .crosscut__description {
+    width: 100%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .purchase__btn {
+    width: 30%;
+    height: 45px;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .arrow__icon {
+    display: none;
+  }
+  /* passes section end */
+  
+  /* main container ends here */
+  
+  /* footer container starts here */
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 66px;
+    /* padding-top: 1px; */
+    border: 1px solid transparent;
+  }
+  
+  .footer-content {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer__fitness__content {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer__fitness__title {
+    width: 90%;
+    height: auto;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer__fitness__description {
+    width: 90%;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  
+  .footer__get__started__content {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .get__started__title {
+    font-size: 1.5rem;
+    margin-bottom: 39px;
+  }
+  
+  .get__started__description {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .horizontal__row {
+    width: 80%;
+    height: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+  }
+  
+  .footer__description {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 57px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  /* footer container ends here */
